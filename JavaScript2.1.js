@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 	$("#testbutton").click(function() {
 		
-		$("div strong").css("background-color","red");
+		$("p:even").css("background-color","red");
 		
 	});
 
