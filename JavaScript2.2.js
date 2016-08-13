@@ -6,7 +6,7 @@ $(document).ready(function() {
   
     $("h1").mouseleave(function() {
     $(this).css("background-color","yellow");
-	$(this).unbind();
+	$("*").unbind("mouseleave");
   });
   
 });
