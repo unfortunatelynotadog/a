@@ -2,7 +2,7 @@
 
 $(document).ready(function() {   
 
-	$("#testbutton").click(function() {
+	$("#testbutton, strong").click(function() {
 		
 		$("strong.multiple").css("background-color","red");
 		
