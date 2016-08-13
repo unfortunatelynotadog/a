@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 	$("#testbutton").click(function() {
 		
-		$("#third").css("background-color","red");
+		$(".multiple").css("background-color","red");
 		
 	});
 
