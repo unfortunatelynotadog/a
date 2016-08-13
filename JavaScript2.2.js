@@ -4,4 +4,8 @@ $(document).ready(function() {
     $(this).css("background-color","red");
   });
   
+    $("h1").mouseup(function() {
+    $(this).css("background-color","yellow");
+  });
+  
 });
