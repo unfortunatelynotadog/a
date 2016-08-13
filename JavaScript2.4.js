@@ -4,7 +4,7 @@ $(document).ready(function() {
 		
 		$("h2").animate({
 			
-		"font-size": "hide",
+		"font-size": "toggle",
 		"width": "50%",
 		"left": "+=100px" //element must have position property value of relative, fixed or absolute
 		
