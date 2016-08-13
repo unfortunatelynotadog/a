@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 	$("#testbutton").click(function() {
 		
-		$("div > p").css("background-color","red");
+		$("div > p:first-child").css("background-color","red");
 		
 	});
 
