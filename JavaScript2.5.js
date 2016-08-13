@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	$("h1").mouseenter(function() {
 		
-		$(this).toggleClass("emphasis shrink");
+		$(this).toggleClass();
 		
 	});
 
