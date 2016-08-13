@@ -4,7 +4,8 @@ $(document).ready(function() {
 		
 		$("h2").animate({
 			
-		"font-size": "3em"
+		"font-size": "3em",
+		"width": "50%"
 		
 		}, 1000);
 		
