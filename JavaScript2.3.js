@@ -1,8 +1,9 @@
 $(document).ready(function() {
+
+    $("h2").hide();
 	
   $("h1").click(function() {
- 
-    $("h2").hide(1000);
+     $("h2").show(1000);
 	
   });
   
