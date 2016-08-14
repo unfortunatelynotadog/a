@@ -1,18 +1,16 @@
 $(document).ready(function() {
-	var lineNum = 0;
+	var imageName = ["https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS6PuNP6t_aIGopGqh9ngvFH0QZ4z-GoGfR9DHxVw_CFMov5YTq", "http://www.clipartkid.com/images/4/ball-with-flames-3-clip-art-at-clker-com-vector-clip-art-online-HRhVJg-clipart.png", "http://www.epcoshiftknobs.com/images/product%20images/8ball_red.jpg"];
+	
+	var indexNum = 0;
 
 	
-	$("h1").click(function() {
+	$("#picture").click(function() {
 
-		$("p").css("background-color", "yellow");	
-		$("p").eq(lineNum).css("background-color", "red");	
-		lineNum++;		
+		$("#picture").attr("src", imageName[indexNum]);
 		
-		if (lineNum > 2) {
-			
-			lineNum = 0;
-			
-		}
+		indexNum++;
+		
+		if (indexNum > 2) {indexNum = 0;}
 		
 	});
 
