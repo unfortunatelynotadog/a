@@ -1,10 +1,8 @@
 $(document).ready(function() {
-	var hText = $("#head1").text();
-	var text1 = "The heading text is ";
-	var text2 = text1 + hText;
+	var hText = "The heading text is " + $("#head1").text();
 
 	$("h1").click(function() {
-		$("p").text(text2);
+		$("p").text(hText);
 		
 		
 	});
