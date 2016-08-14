@@ -6,12 +6,17 @@ $(document).ready(function() {
 	
 	$("#picture").click(function() {
 
-		$("#picture").attr("src", imageName[indexNum]);
+		$("#picture").fadeOut(300, function() {
+			
+			$("#picture").attr("src", imageName[indexNum]);
+			
+		    indexNum++;			
+			
+			if (indexNum > 2) {indexNum = 0;}			
+			$("#picture").fadeIn(500);
+		});
 		
-		indexNum++;
-		
-		if (indexNum > 2) {indexNum = 0;}
-		
+
 	});
 
 });
