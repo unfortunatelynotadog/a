@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	$("h1").click(function() {
-		$("p").append(" More text.");
+		$("div").append(" <p>new text</p>");
 		
 	});
 
