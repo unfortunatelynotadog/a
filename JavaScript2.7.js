@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$("h1").click(function() {
 		
-		$(this).add("p").css("background-color", "red");
+		$("p").not("p.second").css("background-color", "red");
 		
 	});
 
