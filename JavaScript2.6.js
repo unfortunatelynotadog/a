@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	$("h1").click(function() {
-		$("div").before(" <p>new text</p>");
+		$("p").replaceWith("<h2>new text</h2>");
 		
 	});
 
