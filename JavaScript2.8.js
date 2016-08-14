@@ -8,6 +8,12 @@ $(document).ready(function() {
 		$("p").eq(lineNum).css("background-color", "red");	
 		lineNum++;		
 		
+		if (lineNum > 2) {
+			
+			lineNum = 0;
+			
+		}
+		
 	});
 
 });
