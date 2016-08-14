@@ -1,8 +1,8 @@
 $(document).ready(function() {
-	var hText = "The heading text is " + $("#head1").text();
+	var lineNum = 0;
 
 	$("h1").click(function() {
-		$("p").text(hText);
+		$("p").eq(lineNum).css("background-color", "red");
 		
 		
 	});
