@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var hText = "This is just some text.";
+	var hText = $("#head1").text();
 	
 
 	$("h1").click(function() {
